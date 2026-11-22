@@ -38,4 +38,4 @@ A `pyproject.toml` below a pixi workspace that the workspace does not reference 
 
 ## Link to the Renovate issue or Discussion
 
-<!-- TODO: link to the Renovate PR or Discussion -->
+https://github.com/renovatebot/renovate/pull/48279
