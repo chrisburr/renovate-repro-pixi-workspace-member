@@ -13,6 +13,7 @@
 - `subpackage/pyproject.toml` pins `six==1.16.0` and has no `[tool.pixi]` section.
 - As a control, `pixi.toml` itself pins `idna==3.6`.
 - CI runs `pixi install --locked`, which fails when `pixi.lock` is out of date.
+- `requires-pixi` pins the pixi version so Renovate and CI write and check `pixi.lock` with the same pixi.
 
 pixi records the `requires_dist` of path dependencies in `pixi.lock`, so changing a dependency in `subpackage/pyproject.toml` requires `pixi.lock` to be regenerated.
 
