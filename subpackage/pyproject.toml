@@ -1,0 +1,8 @@
+[project]
+name = "subpackage"
+version = "0.1.0"
+dependencies = ["six==1.16.0"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
